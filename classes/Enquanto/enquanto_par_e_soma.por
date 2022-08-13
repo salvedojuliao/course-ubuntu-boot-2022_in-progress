@@ -4,7 +4,8 @@ programa
 	
 	funcao inicio()
 	{
-		inteiro numero = 0, soma_pares = 0
+		inteiro numero = 0
+		inteiro soma_pares = 0
 		enquanto(numero % 2 == 0){
 			escreva("Digite um número par: ")
 			leia(numero)
@@ -28,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 233; 
+ * @POSICAO-CURSOR = 166; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

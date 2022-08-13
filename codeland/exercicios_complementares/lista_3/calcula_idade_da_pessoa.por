@@ -1,6 +1,6 @@
 programa
 {
-	/* Faça um algoritmo que calcule a idade de uma pessoa com base em sua idade em total da idade 
+	/* Faça um algoritmo que calcule a idade de uma pessoa com base em sua idade em total da idade 
 	(ex: 25), meses (ex: 8) e dias após o dia do seu aniversário no mês atual (ex:5) 
 	(o usuário quem irá inserir as informações), e exiba na tela.*/
 	funcao inicio()
@@ -46,7 +46,7 @@ programa
 			inteiro diferenca = ((ano_atual - 0001) - (ano_pessoa + 0001)) * dias_ano
 			escreva("\nPassaram-se " + dias_em_2022 + " dias de 2022 \n")
 			escreva("Faltaram " + dias_restantes + " dias para acabar o ano de " + (ano_pessoa) + "\n")
-			escreva("Entre " + (ano_pessoa - 0001) + " e " + (ano_atual + 0001) + " foram " + diferenca + " dias \n")
+			escreva("Entre " + (ano_pessoa + 0001) + " e " + (ano_atual - 0001) + " foram " + diferenca + " dias \n")
 			resposta = diferenca + (dias_restantes + dias_em_2022)
 			escreva("Somando " + dias_restantes + " dias (" + ano_pessoa + ") com " + dias_em_2022 + " dias (" + ano_atual + ")" + " = " + resposta + "\n")
 			escreva("Parabéns, você viveu " + resposta + " dias")
@@ -64,7 +64,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1755; 
+ * @POSICAO-CURSOR = 2094; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
