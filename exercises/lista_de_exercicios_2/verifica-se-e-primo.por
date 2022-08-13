@@ -1,15 +1,14 @@
 programa
 {
 	//Variáveis necessárias 
-	inteiro cont
-	inteiro numero_digitado
+	inteiro cont = 0
+	inteiro numero_digitado = 0
 
 	//Função que mostra os números primos
 	funcao mostraNumerosPrimos(inteiro numero_digit){
 		//Looping
 		escreva("\nOs números primos entre " + numero_digit + " e " + 0 + " são: \n")
 		para (inteiro i = numero_digit; i >= 1; i--){
-			cont = 0
 			para (inteiro j = numero_digit; j >= 1; j--){
 				se (i % j == 0){
 					cont++
@@ -18,6 +17,7 @@ programa
 			se (cont == 2){
 				escreva(i + "\n")
 			}
+			cont = 0
 		}
 
 	}
@@ -43,7 +43,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 644; 
+ * @POSICAO-CURSOR = 314; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
