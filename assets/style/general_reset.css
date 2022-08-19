@@ -18,13 +18,13 @@ a{
 
 footer{
     width: 100%;
-    background-color: black;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 80px;
     margin-top: 80px;
-    color: hsl(49, 100%, 49%);
+    color: black;
 }
 
 body{
