@@ -23,8 +23,8 @@
     background-image: url("../imgs/soft-skills/student.jpg");
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
     margin-bottom: 50px;
 }
 
