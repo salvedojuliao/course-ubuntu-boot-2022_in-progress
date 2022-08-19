@@ -4,7 +4,7 @@
 *{padding: 0;margin: 0; box-sizing: border-box;  font-family: 'Cabin', sans-serif;}
 
 header{
-    background-color: #121321;
+    background-color: #eeeeee;
 }
 
 li{
@@ -18,7 +18,7 @@ a{
 
 footer{
     width: 100%;
-    background-color: #121321;
+    background-color: white;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -28,5 +28,5 @@ footer{
 }
 
 body{
-    background-color: #1a1e38;
+    background-color: #17172b;
 }

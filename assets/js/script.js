@@ -1,5 +1,7 @@
 const hamburguer = document.querySelector(".hamburguer");
 const navMenu = document.querySelector(".nav_menu");
+const header = document.querySelector(".header");
+// const messageHero = document.querySelector(".message-hero");
 // const nav_item = document.querySelectorAll(".nav_item");
 // const nav_link = document.querySelectorAll(".nav_link");
 
@@ -7,6 +9,8 @@ const navMenu = document.querySelector(".nav_menu");
 hamburguer.addEventListener("click", () => {
     hamburguer.classList.toggle("active");
     navMenu.classList.toggle("active");
+    header.classList.toggle("active");
+    // messageHero.classList.toggle("active");
     // nav_item.forEach(e => {
     //     e.classList.toggle("active");
     // });
