@@ -6,6 +6,7 @@
     justify-content: center;
     line-height: 32px;
     font-size: 14px;
+    color: #fafaff;
 }
 
 .message-hero h1{
@@ -24,7 +25,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .img-texts{
@@ -41,6 +42,7 @@
 
 .text-p h3{
     margin-bottom: 6px;
+    text-decoration: underline;
 }
 
 .text-p{
@@ -48,11 +50,56 @@
     line-height: 30px;
     margin-bottom: 10px;
     margin: auto;
+    color: #fafaff;
+}
+
+.subtittle{
+    color: hsl(49, 100%, 49%);
+}
+
+.text-p a{
+    color: hsl(49, 100%, 49%);
+    text-decoration: underline;
 }
 
 
-@media(min-width: 450px){
+@media(min-width: 800px){
+    .message-hero{
+        height: 150px;
+        width: 800px;
+        margin: auto;
+        font-size: 17px;
+    }
 
+    .message-hero_field{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-texts{
+        width: 750px;
+        height: 200px;
+        border-radius: 10px;
+        margin: auto;
+        margin-bottom: 330px;
+    }
+
+    .texts{
+        width: 800px;
+        margin: auto;
+    }
+
+    .text-p h3{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+
+    .text-p p{
+        font-size: 18px;
+    }
+    
 }
 
 
