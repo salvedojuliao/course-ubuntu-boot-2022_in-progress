@@ -13,10 +13,12 @@ programa
 	
 	funcao inicio()
 	{
-		// Vriáveis
+		// Variáveis
 		inteiro total_somatorio = 0, quantidade = 0, numero_usuario = 1
 		real v_media = 0
 
+
+		//processamento
 		escreva("Para sair do programa, basta digitar valores negativos \n")
 		enquanto(numero_usuario >= 0){ //Poderia ser >-1
 			escreva("\nDigite um número: ")
@@ -27,12 +29,16 @@ programa
 			}
 		}
 		v_media = (total_somatorio / quantidade)
+
+		//Saíde
 		escreva("\n-----------------------------\n")
 		escreva("\nTotal somatório: " + total_somatorio + "\n")
 		escreva("Total de números: " + quantidade + "\n")
 		escreva("Média: " + v_media)
 		escreva("\n-----------------------------\n")
 
+
+		// Programda com Do Whle
 		/*escreva("Para sair do programa, basta digitar 0 ou valores negativos \n")
 		faca{
 			escreva("\nDigite um número: ")
@@ -57,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 776; 
+ * @POSICAO-CURSOR = 1123; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
