@@ -14,8 +14,8 @@ programa
 	funcao inicio()
 	{
 		// Variáveis
-		inteiro total_somatorio = 0, numero_usuario = 1
-		real v_media = 0.0, quantidade = 0.0
+		inteiro  numero_usuario = 1, quantidade = 0
+		real v_media = 0.0, total_somatorio = 0.0
 
 
 		//processamento
@@ -32,8 +32,8 @@ programa
 
 		//Saíde
 		escreva("\n-----------------------------\n")
-		escreva("\nTotal somatório: " + total_somatorio + "\n")
 		escreva("Total de números: " + quantidade + "\n")
+		escreva("\nTotal somatório: " + total_somatorio + "\n")
 		escreva("Média: " + v_media)
 		escreva("\n-----------------------------\n")
 
@@ -63,7 +63,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 517; 
+ * @POSICAO-CURSOR = 1021; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
