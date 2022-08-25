@@ -10,6 +10,7 @@ programa
 		c) maior salário; 
 		d) percentual de pessoas com salário até R$100,00.
 		Link: https://docs.google.com/document/d/1OMJe5hucmdWf8vtCv8LaH1Exqr0_CknrGVUfmHhtbCw/edit
+		
 	*/
 	
 	funcao inicio()
@@ -69,7 +70,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 1410; 
+ * @POSICAO-CURSOR = 454; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
