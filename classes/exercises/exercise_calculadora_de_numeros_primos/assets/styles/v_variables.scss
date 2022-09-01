@@ -1,0 +1,31 @@
+// Colors
+$green_basic: #288C00;
+$green_blue: #007E8F;
+$f_intermediate_color: #02cb95;
+$s_intermediate_color: #21f897;
+$red: #c50909;
+$yellow_basic: #efef15;
+$black_font: rgb(10, 10, 10);
+
+//Hover
+$green_hover: #3dd401;
+$red_hover: #ff0000f2;
+$yellow_hover: #fdfd00ea;
+
+// Display-Flex Mixin
+@mixin flexDefinition($justify_content, $flex-direction, $align-items){
+    justify-content: $justify_content;
+    flex-direction: $flex-direction;
+    align-items: $align-items;
+}
+
+
+
+// Animation
+@keyframes changeColor {
+    0% {background: $green_blue}
+    25% {background: $f_intermediate_color}
+    50% {background: $green_basic}
+    75% {background: $s_intermediate_color}
+    100% {background: $green_blue}
+}

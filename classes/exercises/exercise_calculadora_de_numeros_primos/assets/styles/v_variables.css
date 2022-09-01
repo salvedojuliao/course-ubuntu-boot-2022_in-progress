@@ -1,0 +1,34 @@
+@-webkit-keyframes changeColor {
+  0% {
+    background: #007E8F;
+  }
+  25% {
+    background: #02cb95;
+  }
+  50% {
+    background: #288C00;
+  }
+  75% {
+    background: #21f897;
+  }
+  100% {
+    background: #007E8F;
+  }
+}
+@keyframes changeColor {
+  0% {
+    background: #007E8F;
+  }
+  25% {
+    background: #02cb95;
+  }
+  50% {
+    background: #288C00;
+  }
+  75% {
+    background: #21f897;
+  }
+  100% {
+    background: #007E8F;
+  }
+}/*# sourceMappingURL=v_variables.css.map */

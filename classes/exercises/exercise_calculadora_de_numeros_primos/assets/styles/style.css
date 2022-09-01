@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Signika:wght@300;700&display=swap");
+@-webkit-keyframes changeColor {
+  0% {
+    background: #007E8F;
+  }
+  25% {
+    background: #02cb95;
+  }
+  50% {
+    background: #288C00;
+  }
+  75% {
+    background: #21f897;
+  }
+  100% {
+    background: #007E8F;
+  }
+}
+@keyframes changeColor {
+  0% {
+    background: #007E8F;
+  }
+  25% {
+    background: #02cb95;
+  }
+  50% {
+    background: #288C00;
+  }
+  75% {
+    background: #21f897;
+  }
+  100% {
+    background: #007E8F;
+  }
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: stretch;
+  font-family: "Signika", sans-serif;
+  -webkit-animation: changeColor 10s ease 0s infinite normal forwards;
+          animation: changeColor 10s ease 0s infinite normal forwards;
+}
+
+.card {
+  width: 350px;
+  min-height: 700px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  margin-top: 10px;
+  border-radius: 30px;
+  box-shadow: 4px 30px 33px 1px rgba(0, 0, 0, 0.49);
+}
+
+.card_img {
+  width: 340px;
+}
+
+.card_img img {
+  width: 100%;
+  border-radius: 30px;
+}
+
+.card_data {
+  width: 340px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 0px;
+  text-align: center;
+}
+
+.card_buttons {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  flex-direction: column;
+  margin: 20px auto;
+}
+
+h1 {
+  font-size: 22px;
+  text-align: center;
+  color: rgb(10, 10, 10);
+}
+
+.btn_submit, .btn_delete, .btn_clear {
+  cursor: pointer;
+  width: 80px;
+  padding: 10px;
+  border-radius: 10px;
+  margin-top: 10px;
+  border: none;
+  transition: 0.5s;
+  font-weight: 700;
+}
+
+.btn_submit {
+  color: white;
+  background: #288C00;
+}
+.btn_submit:hover {
+  background: #3dd401;
+}
+
+.btn_delete {
+  color: white;
+  background: #c50909;
+}
+.btn_delete:hover {
+  background: rgba(255, 0, 0, 0.9490196078);
+}
+
+.btn_clear {
+  color: rgb(10, 10, 10);
+  background: #efef15;
+}
+.btn_clear:hover {
+  background: rgba(253, 253, 0, 0.9176470588);
+}
+
+.field_numbers {
+  padding: 10px;
+  width: 90%;
+  margin: auto;
+}
+
+.action_buttons {
+  width: 100%;
+}
+
+.results {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  color: rgb(10, 10, 10);
+  transition: 0.5s;
+}
+
+#list_results {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+#list_results li {
+  padding: 10px;
+}
+
+.results h3 {
+  text-align: center;
+  color: rgb(10, 10, 10);
+}/*# sourceMappingURL=style.css.map */
