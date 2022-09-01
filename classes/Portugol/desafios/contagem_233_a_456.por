@@ -8,32 +8,52 @@ programa
 	funcao inicio()
 	{
 
-		inteiro variavel = 232
+		logico fim = falso
+		inteiro numero = 233
 		faca{
-
-			enquanto(variavel < 300){
-				variavel+=1
-				escreva(variavel + "\n")	
+			para (numero; numero <= 300; numero++){
+				escreva(numero + "\n")
 			}
-			enquanto(variavel >= 300 e variavel < 400){
-				variavel+=3
-				escreva(variavel + "\n")	
+			numero-=1	
+			para (numero; numero < 400; numero+=3){
+				escreva(numero + "\n")
 			}
-			enquanto(variavel >= 402 e variavel < 452){
-				variavel+=5
-				escreva(variavel + "\n")	
+			numero-=2
+			para (numero; numero < 456; numero+=5){
+				escreva(numero + "\n")
 			}
-			
-		}enquanto(variavel <= 456)
+			numero-=4
+			escreva(numero + "\n")
+			fim = verdadeiro
+		}enquanto(fim == falso)
+	
 		
 	}
 }
+
+/*
+
+
+
+senao se(variavel >= 300 e variavel < 400){
+				
+				variavel+=3
+				escreva(variavel + "\n")
+			}senao se(variavel >= 400){
+				variavel+=5
+				escreva(variavel + "\n")
+				se (variavel >= 456){
+					fim = verdadeiro	
+				}
+			}
+			
+			*/
 /* $$$ Portugol Studio $$$ 
  * 
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 10; 
+ * @POSICAO-CURSOR = 382; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
